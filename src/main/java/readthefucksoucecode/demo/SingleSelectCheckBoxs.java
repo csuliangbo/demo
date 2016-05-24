@@ -60,7 +60,7 @@ public class SingleSelectCheckBoxs extends LinearLayout  {
 			return;
 		}
 
-		// 根据数据集合，实例化出对应的条目View，存入list， 每个checkbox设置tag为对应的数据位置
+			// 根据数据集合，实例化出对应的条目View，存入list， 每个checkbox设置tag为对应的数据位置
 		for (int i = 0; i < mData.size(); i++) {
 			View itemView = null;
 
